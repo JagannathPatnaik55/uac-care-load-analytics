@@ -1,0 +1,2 @@
+[console_scripts]
+uac-care-load-analysis = uac_analytics.cli:main

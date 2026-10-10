@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: uac-care-load-analytics
+Version: 1.0.0
+Summary: Coverage-aware analytics dashboard and reporting for aggregate UAC operational data
+Requires-Python: >=3.11
+Requires-Dist: numpy==2.5.3
+Requires-Dist: pandas==3.0.6
+Requires-Dist: matplotlib==3.11.2
+Requires-Dist: plotly==6.9.0
+Requires-Dist: streamlit==1.65.0
+Provides-Extra: test
+Requires-Dist: pytest==9.1.1; extra == "test"

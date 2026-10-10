@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uac-care-load-analytics"
+version = "1.0.0"
+description = "Coverage-aware analytics dashboard and reporting for aggregate UAC operational data"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy==2.5.3",
+  "pandas==3.0.6",
+  "matplotlib==3.11.2",
+  "plotly==6.9.0",
+  "streamlit==1.65.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1"]
+
+[project.scripts]
+uac-care-load-analysis = "uac_analytics.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --basetemp=outputs/.pytest-temp"

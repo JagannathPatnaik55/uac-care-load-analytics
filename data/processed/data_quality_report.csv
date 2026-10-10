@@ -1,0 +1,23 @@
+check,value,explanation
+raw_rows,1170,"Rows read from the CSV body, including completely blank rows."
+blank_rows_removed,450,Completely blank rows excluded from analytical records.
+observed_records,720,"Nonblank source rows retained, including rows with invalid dates."
+valid_dates,720,Retained records with a parsed reporting date.
+invalid_dates,0,Rows with blank or unparseable dates.
+date_start,2023-01-12,Earliest parsed reporting date.
+date_end,2025-12-21,Latest parsed reporting date.
+possible_calendar_days,1075,"Calendar dates from the minimum through maximum parsed date, inclusive."
+observed_calendar_days,720,Distinct dates with at least one valid-date source record.
+missing_calendar_days,355,Dates with no source record; not zero-filled.
+calendar_coverage_pct,66.98,Observed distinct dates divided by possible dates.
+duplicate_date_rows,0,Rows on dates appearing more than once; records are not aggregated.
+exact_duplicate_rows,0,Rows identical across all required source columns; none removed.
+missing_numeric_values,0,Blank values across required count fields.
+numeric_conversion_failures,0,Nonblank count values that could not be parsed.
+negative_counts,0,Count values below zero.
+fractional_counts,0,Count values that are not whole numbers.
+transfers_exceed_cbp_custody_review_flags,86,Flow-versus-stock comparison from the DOCX; flags require review and values are not changed.
+discharges_exceed_hhs_care_flags,0,DOCX discharge comparison flags; values are not changed.
+day_to_day_change_outliers,309,Consecutive-day changes outside 1.5 IQR; inspection flags only.
+unexpected_columns,None,Extra source columns are retained in raw input and excluded from core calculations.
+source_arrival_order,Newest-first,Analytical records are sorted chronologically regardless of source order.

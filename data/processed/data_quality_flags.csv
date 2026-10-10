@@ -1,0 +1,752 @@
+source_row,date,metric,rule,severity,value,explanation
+,2023-01-13,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-01-14,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-01-15,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-01-16,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-01-17,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-01-18,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-01-19,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-01-20,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-01-21,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+718,2023-01-24,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,47.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+717,2023-01-25,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,41.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2023-01-26,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-01-27,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-01-28,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+715,2023-01-30,hhs_care,day_to_day_change_outlier,review,271.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+715,2023-01-30,hhs_discharges,day_to_day_change_outlier,review,-107.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+712,2023-02-02,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,23.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2023-02-03,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-02-04,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+710,2023-02-06,hhs_discharges,day_to_day_change_outlier,review,-146.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+708,2023-02-08,cbp_custody,day_to_day_change_outlier,review,176.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+708,2023-02-08,cbp_daily_intake,day_to_day_change_outlier,review,77.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+708,2023-02-08,transfers_to_hhs,day_to_day_change_outlier,review,149.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+708,2023-02-08,hhs_discharges,day_to_day_change_outlier,review,117.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-02-10,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-02-11,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+705,2023-02-13,cbp_daily_intake,day_to_day_change_outlier,review,94.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+704,2023-02-14,hhs_care,day_to_day_change_outlier,review,311.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-02-17,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-02-18,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-02-19,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+699,2023-02-22,cbp_custody,day_to_day_change_outlier,review,-99.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+699,2023-02-22,cbp_daily_intake,day_to_day_change_outlier,review,-77.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+699,2023-02-22,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,230.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+698,2023-02-23,transfers_to_hhs,day_to_day_change_outlier,review,-52.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+698,2023-02-23,hhs_discharges,day_to_day_change_outlier,review,154.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+698,2023-02-23,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,178.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2023-02-24,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-02-25,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+696,2023-02-27,hhs_care,day_to_day_change_outlier,review,191.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+694,2023-03-01,hhs_discharges,day_to_day_change_outlier,review,107.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+694,2023-03-01,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,193.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+693,2023-03-02,cbp_custody,day_to_day_change_outlier,review,69.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-03-03,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-03-04,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-03-05,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-03-06,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+690,2023-03-09,cbp_custody,day_to_day_change_outlier,review,77.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-03-10,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-03-11,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-03-12,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+688,2023-03-14,hhs_care,day_to_day_change_outlier,review,243.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+687,2023-03-15,hhs_discharges,day_to_day_change_outlier,review,105.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+686,2023-03-16,cbp_daily_intake,day_to_day_change_outlier,review,72.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+686,2023-03-16,transfers_to_hhs,day_to_day_change_outlier,review,-67.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-03-17,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-03-18,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+683,2023-03-21,cbp_daily_intake,day_to_day_change_outlier,review,-92.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+681,2023-03-23,transfers_to_hhs,day_to_day_change_outlier,review,-51.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-03-24,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-03-25,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+679,2023-03-27,cbp_custody,day_to_day_change_outlier,review,-75.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+679,2023-03-27,hhs_discharges,day_to_day_change_outlier,review,-117.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+678,2023-03-28,cbp_daily_intake,day_to_day_change_outlier,review,83.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-03-31,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-04-01,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+674,2023-04-03,cbp_custody,day_to_day_change_outlier,review,-93.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+674,2023-04-03,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,168.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+673,2023-04-04,cbp_custody,day_to_day_change_outlier,review,96.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-04-07,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-04-08,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-04-14,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-04-15,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+662,2023-04-19,cbp_custody,day_to_day_change_outlier,review,95.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+662,2023-04-19,cbp_daily_intake,day_to_day_change_outlier,review,87.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+661,2023-04-20,cbp_custody,day_to_day_change_outlier,review,-87.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+661,2023-04-20,cbp_daily_intake,day_to_day_change_outlier,review,-126.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-04-21,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-04-22,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+659,2023-04-24,hhs_care,day_to_day_change_outlier,review,262.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+658,2023-04-25,cbp_custody,day_to_day_change_outlier,review,-100.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+658,2023-04-25,hhs_care,day_to_day_change_outlier,review,221.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+658,2023-04-25,cbp_daily_intake,day_to_day_change_outlier,review,-155.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+658,2023-04-25,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,242.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+657,2023-04-26,transfers_to_hhs,day_to_day_change_outlier,review,-82.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+656,2023-04-27,cbp_daily_intake,day_to_day_change_outlier,review,100.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-04-28,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-04-29,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+654,2023-05-01,cbp_custody,day_to_day_change_outlier,review,72.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+654,2023-05-01,cbp_daily_intake,day_to_day_change_outlier,review,92.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+653,2023-05-02,transfers_to_hhs,day_to_day_change_outlier,review,61.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+651,2023-05-04,cbp_custody,day_to_day_change_outlier,review,-100.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+651,2023-05-04,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,286.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2023-05-05,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-05-06,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+649,2023-05-08,hhs_discharges,day_to_day_change_outlier,review,-114.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+648,2023-05-09,transfers_to_hhs,day_to_day_change_outlier,review,58.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+646,2023-05-11,cbp_custody,day_to_day_change_outlier,review,127.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+646,2023-05-11,cbp_daily_intake,day_to_day_change_outlier,review,101.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-05-12,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-05-13,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+644,2023-05-15,cbp_daily_intake,day_to_day_change_outlier,review,105.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+644,2023-05-15,transfers_to_hhs,day_to_day_change_outlier,review,-59.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+642,2023-05-17,cbp_custody,day_to_day_change_outlier,review,-142.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+642,2023-05-17,cbp_daily_intake,day_to_day_change_outlier,review,-104.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+642,2023-05-17,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,193.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+641,2023-05-18,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,152.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2023-05-19,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-05-20,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+639,2023-05-22,hhs_discharges,day_to_day_change_outlier,review,-103.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+638,2023-05-23,cbp_custody,day_to_day_change_outlier,review,-90.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+638,2023-05-23,cbp_daily_intake,day_to_day_change_outlier,review,-74.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+638,2023-05-23,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,94.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+636,2023-05-25,hhs_care,day_to_day_change_outlier,review,-163.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+636,2023-05-25,hhs_discharges,day_to_day_change_outlier,review,132.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-05-26,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-05-27,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-05-28,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+635,2023-05-29,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,71.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+633,2023-05-31,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,82.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2023-06-02,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-06-03,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+630,2023-06-05,hhs_discharges,day_to_day_change_outlier,review,-103.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-06-09,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-06-10,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+626,2023-06-11,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,168.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+625,2023-06-12,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,136.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+624,2023-06-13,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,117.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+623,2023-06-14,transfers_to_hhs,day_to_day_change_outlier,review,-65.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+622,2023-06-15,hhs_discharges,day_to_day_change_outlier,review,105.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+622,2023-06-15,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,97.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2023-06-16,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-06-17,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-06-18,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+620,2023-06-20,hhs_care,day_to_day_change_outlier,review,225.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+619,2023-06-21,cbp_custody,day_to_day_change_outlier,review,143.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+619,2023-06-21,transfers_to_hhs,day_to_day_change_outlier,review,135.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-06-23,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-06-24,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+616,2023-06-26,cbp_daily_intake,day_to_day_change_outlier,review,94.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-06-30,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-07-01,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-07-03,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+610,2023-07-05,cbp_custody,day_to_day_change_outlier,review,-99.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+610,2023-07-05,cbp_daily_intake,day_to_day_change_outlier,review,-77.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+610,2023-07-05,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,230.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+609,2023-07-06,transfers_to_hhs,day_to_day_change_outlier,review,-52.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+609,2023-07-06,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,178.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2023-07-07,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-07-08,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+605,2023-07-12,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,193.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+604,2023-07-13,cbp_custody,day_to_day_change_outlier,review,69.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-07-14,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-07-15,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+601,2023-07-18,cbp_custody,day_to_day_change_outlier,review,77.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+601,2023-07-18,hhs_care,day_to_day_change_outlier,review,242.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-07-21,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-07-22,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+597,2023-07-24,cbp_daily_intake,day_to_day_change_outlier,review,72.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+597,2023-07-24,transfers_to_hhs,day_to_day_change_outlier,review,-67.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+596,2023-07-25,hhs_care,day_to_day_change_outlier,review,290.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+594,2023-07-27,cbp_daily_intake,day_to_day_change_outlier,review,-92.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-07-28,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-07-29,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+592,2023-07-31,transfers_to_hhs,day_to_day_change_outlier,review,-51.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+591,2023-08-01,hhs_care,day_to_day_change_outlier,review,303.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+590,2023-08-02,cbp_custody,day_to_day_change_outlier,review,-75.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+589,2023-08-03,cbp_daily_intake,day_to_day_change_outlier,review,83.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-08-04,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-08-05,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+587,2023-08-07,hhs_care,day_to_day_change_outlier,review,195.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+587,2023-08-07,hhs_discharges,day_to_day_change_outlier,review,-120.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+586,2023-08-08,hhs_care,day_to_day_change_outlier,review,232.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+585,2023-08-09,cbp_custody,day_to_day_change_outlier,review,-93.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+585,2023-08-09,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,168.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+584,2023-08-10,cbp_custody,day_to_day_change_outlier,review,96.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-08-11,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-08-12,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-08-13,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-08-14,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-08-15,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+582,2023-08-17,hhs_discharges,day_to_day_change_outlier,review,119.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-08-18,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-08-19,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+580,2023-08-21,hhs_care,day_to_day_change_outlier,review,185.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+580,2023-08-21,hhs_discharges,day_to_day_change_outlier,review,-109.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+579,2023-08-22,hhs_care,day_to_day_change_outlier,review,253.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+577,2023-08-24,hhs_discharges,day_to_day_change_outlier,review,158.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-08-25,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-08-26,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+575,2023-08-28,hhs_discharges,day_to_day_change_outlier,review,-100.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+574,2023-08-29,hhs_discharges,day_to_day_change_outlier,review,-102.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+573,2023-08-30,cbp_custody,day_to_day_change_outlier,review,95.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+573,2023-08-30,cbp_daily_intake,day_to_day_change_outlier,review,87.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+572,2023-08-31,cbp_custody,day_to_day_change_outlier,review,-87.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+572,2023-08-31,hhs_care,day_to_day_change_outlier,review,-140.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+572,2023-08-31,cbp_daily_intake,day_to_day_change_outlier,review,-126.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+572,2023-08-31,hhs_discharges,day_to_day_change_outlier,review,139.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-09-01,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-09-02,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-09-03,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+569,2023-09-06,cbp_custody,day_to_day_change_outlier,review,-100.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+569,2023-09-06,hhs_care,day_to_day_change_outlier,review,214.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+569,2023-09-06,cbp_daily_intake,day_to_day_change_outlier,review,-155.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+569,2023-09-06,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,242.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+568,2023-09-07,transfers_to_hhs,day_to_day_change_outlier,review,-82.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+568,2023-09-07,hhs_discharges,day_to_day_change_outlier,review,107.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-09-08,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-09-09,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+566,2023-09-11,hhs_care,day_to_day_change_outlier,review,210.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+566,2023-09-11,cbp_daily_intake,day_to_day_change_outlier,review,-86.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+566,2023-09-11,hhs_discharges,day_to_day_change_outlier,review,-105.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+565,2023-09-12,cbp_custody,day_to_day_change_outlier,review,72.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+565,2023-09-12,cbp_daily_intake,day_to_day_change_outlier,review,92.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+564,2023-09-13,transfers_to_hhs,day_to_day_change_outlier,review,61.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-09-15,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-09-16,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+562,2023-09-17,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,286.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+561,2023-09-18,cbp_custody,day_to_day_change_outlier,review,84.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+561,2023-09-18,transfers_to_hhs,day_to_day_change_outlier,review,-67.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+561,2023-09-18,hhs_discharges,day_to_day_change_outlier,review,-114.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+560,2023-09-19,hhs_care,day_to_day_change_outlier,review,203.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+559,2023-09-20,transfers_to_hhs,day_to_day_change_outlier,review,58.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-09-22,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-09-23,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+556,2023-09-25,cbp_custody,day_to_day_change_outlier,review,-157.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+556,2023-09-25,cbp_daily_intake,day_to_day_change_outlier,review,-169.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+556,2023-09-25,hhs_discharges,day_to_day_change_outlier,review,-119.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+555,2023-09-26,cbp_daily_intake,day_to_day_change_outlier,review,105.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+555,2023-09-26,transfers_to_hhs,day_to_day_change_outlier,review,-59.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+553,2023-09-28,cbp_custody,day_to_day_change_outlier,review,-142.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+553,2023-09-28,cbp_daily_intake,day_to_day_change_outlier,review,-104.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+553,2023-09-28,hhs_discharges,day_to_day_change_outlier,review,116.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+553,2023-09-28,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,193.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2023-09-29,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-09-30,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+552,2023-10-01,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,152.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+551,2023-10-02,hhs_discharges,day_to_day_change_outlier,review,-209.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+549,2023-10-04,cbp_custody,day_to_day_change_outlier,review,-90.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+549,2023-10-04,cbp_daily_intake,day_to_day_change_outlier,review,-74.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+549,2023-10-04,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,94.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2023-10-06,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-10-07,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-10-08,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+546,2023-10-10,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,71.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+544,2023-10-12,hhs_discharges,day_to_day_change_outlier,review,132.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+544,2023-10-12,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,82.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2023-10-13,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-10-14,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+542,2023-10-16,hhs_discharges,day_to_day_change_outlier,review,-103.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+540,2023-10-18,hhs_care,day_to_day_change_outlier,review,-119.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+539,2023-10-19,hhs_care,day_to_day_change_outlier,review,-192.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-10-20,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-10-21,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+537,2023-10-23,hhs_discharges,day_to_day_change_outlier,review,-127.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+537,2023-10-23,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,168.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+536,2023-10-24,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,136.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+535,2023-10-25,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,117.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+534,2023-10-26,transfers_to_hhs,day_to_day_change_outlier,review,-65.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-10-27,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-10-28,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+533,2023-10-29,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,97.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+532,2023-10-30,transfers_to_hhs,day_to_day_change_outlier,review,-86.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+532,2023-10-30,hhs_discharges,day_to_day_change_outlier,review,-140.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+530,2023-11-01,cbp_custody,day_to_day_change_outlier,review,182.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+530,2023-11-01,cbp_daily_intake,day_to_day_change_outlier,review,99.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+530,2023-11-01,transfers_to_hhs,day_to_day_change_outlier,review,163.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+529,2023-11-02,hhs_care,day_to_day_change_outlier,review,192.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+529,2023-11-02,transfers_to_hhs,day_to_day_change_outlier,review,59.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+529,2023-11-02,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,256.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2023-11-03,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-11-04,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+526,2023-11-07,hhs_care,day_to_day_change_outlier,review,197.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-11-09,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-11-10,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-11-11,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+524,2023-11-12,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,233.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+523,2023-11-13,transfers_to_hhs,day_to_day_change_outlier,review,-104.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+522,2023-11-14,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,182.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+521,2023-11-15,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,201.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+520,2023-11-16,transfers_to_hhs,day_to_day_change_outlier,review,-76.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-11-17,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-11-18,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+518,2023-11-20,hhs_discharges,day_to_day_change_outlier,review,-137.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-11-22,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-11-24,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-11-25,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+515,2023-11-26,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,205.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+514,2023-11-27,cbp_custody,day_to_day_change_outlier,review,-114.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+514,2023-11-27,hhs_care,day_to_day_change_outlier,review,278.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+514,2023-11-27,transfers_to_hhs,day_to_day_change_outlier,review,-137.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+514,2023-11-27,hhs_discharges,day_to_day_change_outlier,review,-98.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-12-01,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-12-02,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+509,2023-12-04,transfers_to_hhs,day_to_day_change_outlier,review,59.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+509,2023-12-04,hhs_discharges,day_to_day_change_outlier,review,-144.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+509,2023-12-04,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,256.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+508,2023-12-05,transfers_to_hhs,day_to_day_change_outlier,review,-89.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+507,2023-12-06,hhs_discharges,day_to_day_change_outlier,review,115.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-12-08,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-12-09,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+504,2023-12-11,hhs_discharges,day_to_day_change_outlier,review,-107.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+504,2023-12-11,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,233.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+503,2023-12-12,transfers_to_hhs,day_to_day_change_outlier,review,-104.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+502,2023-12-13,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,182.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+501,2023-12-14,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,201.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2023-12-15,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-12-16,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+497,2023-12-20,hhs_care,day_to_day_change_outlier,review,225.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+497,2023-12-20,hhs_discharges,day_to_day_change_outlier,review,118.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+496,2023-12-21,hhs_care,day_to_day_change_outlier,review,-141.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+496,2023-12-21,hhs_discharges,day_to_day_change_outlier,review,107.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-12-22,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-12-23,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-12-24,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+495,2023-12-25,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,205.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+494,2023-12-26,cbp_custody,day_to_day_change_outlier,review,-114.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+494,2023-12-26,transfers_to_hhs,day_to_day_change_outlier,review,-137.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2023-12-29,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-12-30,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2023-12-31,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+488,2024-01-04,hhs_care,day_to_day_change_outlier,review,-160.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+488,2024-01-04,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,168.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2024-01-05,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-01-06,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+487,2024-01-07,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,136.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+486,2024-01-08,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,117.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+485,2024-01-09,hhs_care,day_to_day_change_outlier,review,-359.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+485,2024-01-09,transfers_to_hhs,day_to_day_change_outlier,review,-65.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+484,2024-01-10,hhs_care,day_to_day_change_outlier,review,-167.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+484,2024-01-10,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,97.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+483,2024-01-11,hhs_care,day_to_day_change_outlier,review,-315.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+483,2024-01-11,transfers_to_hhs,day_to_day_change_outlier,review,-86.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+483,2024-01-11,hhs_discharges,day_to_day_change_outlier,review,127.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-01-12,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-01-13,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-01-14,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+480,2024-01-17,cbp_custody,day_to_day_change_outlier,review,127.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+480,2024-01-17,transfers_to_hhs,day_to_day_change_outlier,review,86.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+480,2024-01-17,hhs_discharges,day_to_day_change_outlier,review,165.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-01-19,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-01-20,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+477,2024-01-22,hhs_discharges,day_to_day_change_outlier,review,-149.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+475,2024-01-24,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,205.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2024-01-26,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-01-27,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+472,2024-01-29,hhs_discharges,day_to_day_change_outlier,review,-112.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+471,2024-01-30,cbp_custody,day_to_day_change_outlier,review,-74.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+471,2024-01-30,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,208.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+470,2024-01-31,cbp_custody,day_to_day_change_outlier,review,279.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+470,2024-01-31,cbp_daily_intake,day_to_day_change_outlier,review,110.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+469,2024-02-01,hhs_care,day_to_day_change_outlier,review,-127.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-02-02,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-02-03,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+467,2024-02-05,cbp_daily_intake,day_to_day_change_outlier,review,-96.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+467,2024-02-05,transfers_to_hhs,day_to_day_change_outlier,review,97.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+467,2024-02-05,hhs_discharges,day_to_day_change_outlier,review,-100.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+466,2024-02-06,cbp_daily_intake,day_to_day_change_outlier,review,134.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-02-09,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-02-10,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+462,2024-02-12,cbp_custody,day_to_day_change_outlier,review,-85.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+462,2024-02-12,transfers_to_hhs,day_to_day_change_outlier,review,214.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+462,2024-02-12,hhs_discharges,day_to_day_change_outlier,review,-113.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+462,2024-02-12,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,440.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+461,2024-02-13,hhs_care,day_to_day_change_outlier,review,256.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+461,2024-02-13,transfers_to_hhs,day_to_day_change_outlier,review,-91.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+460,2024-02-14,transfers_to_hhs,day_to_day_change_outlier,review,-77.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+459,2024-02-15,cbp_custody,day_to_day_change_outlier,review,186.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+459,2024-02-15,cbp_daily_intake,day_to_day_change_outlier,review,148.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-02-16,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-02-17,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-02-18,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+457,2024-02-20,cbp_daily_intake,day_to_day_change_outlier,review,-100.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+457,2024-02-20,transfers_to_hhs,day_to_day_change_outlier,review,-98.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+456,2024-02-21,cbp_daily_intake,day_to_day_change_outlier,review,83.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-02-23,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-02-24,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+452,2024-02-27,cbp_custody,day_to_day_change_outlier,review,-69.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+452,2024-02-27,hhs_care,day_to_day_change_outlier,review,246.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+452,2024-02-27,hhs_discharges,day_to_day_change_outlier,review,-123.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+451,2024-02-28,cbp_custody,day_to_day_change_outlier,review,78.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+450,2024-02-29,transfers_to_hhs,day_to_day_change_outlier,review,80.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-03-01,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-03-02,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+448,2024-03-04,hhs_discharges,day_to_day_change_outlier,review,-125.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+446,2024-03-06,transfers_to_hhs,day_to_day_change_outlier,review,-68.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-03-08,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-03-09,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+443,2024-03-11,hhs_discharges,day_to_day_change_outlier,review,-120.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+441,2024-03-13,cbp_custody,day_to_day_change_outlier,review,64.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+441,2024-03-13,transfers_to_hhs,day_to_day_change_outlier,review,-123.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+440,2024-03-14,hhs_care,day_to_day_change_outlier,review,-124.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+440,2024-03-14,transfers_to_hhs,day_to_day_change_outlier,review,85.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-03-15,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-03-16,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+438,2024-03-18,transfers_to_hhs,day_to_day_change_outlier,review,-71.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+437,2024-03-19,transfers_to_hhs,day_to_day_change_outlier,review,68.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+437,2024-03-19,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,256.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+436,2024-03-20,transfers_to_hhs,day_to_day_change_outlier,review,-82.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+435,2024-03-21,cbp_custody,day_to_day_change_outlier,review,80.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-03-22,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-03-23,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+433,2024-03-25,hhs_discharges,day_to_day_change_outlier,review,-144.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+430,2024-03-28,hhs_care,day_to_day_change_outlier,review,-131.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+430,2024-03-28,transfers_to_hhs,day_to_day_change_outlier,review,63.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+430,2024-03-28,hhs_discharges,day_to_day_change_outlier,review,145.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-03-29,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-03-30,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+428,2024-04-01,hhs_discharges,day_to_day_change_outlier,review,-115.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-04-05,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-04-06,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+423,2024-04-08,transfers_to_hhs,day_to_day_change_outlier,review,-66.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+421,2024-04-10,transfers_to_hhs,day_to_day_change_outlier,review,-75.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+420,2024-04-11,transfers_to_hhs,day_to_day_change_outlier,review,78.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-04-12,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-04-13,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+418,2024-04-15,transfers_to_hhs,day_to_day_change_outlier,review,-67.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+418,2024-04-15,hhs_discharges,day_to_day_change_outlier,review,-99.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+417,2024-04-16,cbp_custody,day_to_day_change_outlier,review,89.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+417,2024-04-16,cbp_daily_intake,day_to_day_change_outlier,review,75.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+416,2024-04-17,transfers_to_hhs,day_to_day_change_outlier,review,69.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-04-19,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-04-20,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+413,2024-04-22,transfers_to_hhs,day_to_day_change_outlier,review,-92.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+412,2024-04-23,cbp_daily_intake,day_to_day_change_outlier,review,76.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+410,2024-04-25,cbp_daily_intake,day_to_day_change_outlier,review,-108.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-04-26,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-04-27,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+409,2024-04-28,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,365.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+408,2024-04-29,transfers_to_hhs,day_to_day_change_outlier,review,-110.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+407,2024-04-30,cbp_custody,day_to_day_change_outlier,review,151.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+407,2024-04-30,cbp_daily_intake,day_to_day_change_outlier,review,80.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+407,2024-04-30,transfers_to_hhs,day_to_day_change_outlier,review,-61.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+406,2024-05-01,transfers_to_hhs,day_to_day_change_outlier,review,101.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-05-03,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-05-04,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+403,2024-05-06,hhs_discharges,day_to_day_change_outlier,review,-127.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+400,2024-05-09,cbp_custody,day_to_day_change_outlier,review,-89.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+400,2024-05-09,transfers_to_hhs,day_to_day_change_outlier,review,63.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-05-10,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-05-11,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+398,2024-05-13,transfers_to_hhs,day_to_day_change_outlier,review,-96.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+397,2024-05-14,cbp_custody,day_to_day_change_outlier,review,88.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+397,2024-05-14,cbp_daily_intake,day_to_day_change_outlier,review,134.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+396,2024-05-15,cbp_custody,day_to_day_change_outlier,review,-134.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+396,2024-05-15,cbp_daily_intake,day_to_day_change_outlier,review,-131.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+396,2024-05-15,transfers_to_hhs,day_to_day_change_outlier,review,123.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+396,2024-05-15,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,341.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+395,2024-05-16,cbp_daily_intake,day_to_day_change_outlier,review,91.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+395,2024-05-16,transfers_to_hhs,day_to_day_change_outlier,review,-127.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-05-17,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-05-18,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+393,2024-05-20,transfers_to_hhs,day_to_day_change_outlier,review,-61.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+393,2024-05-20,hhs_discharges,day_to_day_change_outlier,review,-106.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+392,2024-05-21,cbp_custody,day_to_day_change_outlier,review,80.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+392,2024-05-21,cbp_daily_intake,day_to_day_change_outlier,review,85.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+391,2024-05-22,transfers_to_hhs,day_to_day_change_outlier,review,96.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+390,2024-05-23,cbp_custody,day_to_day_change_outlier,review,-77.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+390,2024-05-23,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,314.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2024-05-24,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-05-25,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-05-26,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+387,2024-05-29,cbp_custody,day_to_day_change_outlier,review,114.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+387,2024-05-29,transfers_to_hhs,day_to_day_change_outlier,review,-81.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+386,2024-05-30,transfers_to_hhs,day_to_day_change_outlier,review,181.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-05-31,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-06-01,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+384,2024-06-03,cbp_custody,day_to_day_change_outlier,review,-86.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+384,2024-06-03,transfers_to_hhs,day_to_day_change_outlier,review,-65.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+384,2024-06-03,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,257.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+383,2024-06-04,cbp_custody,day_to_day_change_outlier,review,112.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+383,2024-06-04,cbp_daily_intake,day_to_day_change_outlier,review,151.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+383,2024-06-04,transfers_to_hhs,day_to_day_change_outlier,review,-81.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+382,2024-06-05,cbp_daily_intake,day_to_day_change_outlier,review,-87.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+382,2024-06-05,transfers_to_hhs,day_to_day_change_outlier,review,115.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-06-07,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-06-08,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+379,2024-06-10,transfers_to_hhs,day_to_day_change_outlier,review,63.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+379,2024-06-10,hhs_discharges,day_to_day_change_outlier,review,-100.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+377,2024-06-12,cbp_custody,day_to_day_change_outlier,review,-86.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+377,2024-06-12,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,274.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2024-06-14,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-06-15,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+371,2024-06-20,cbp_custody,day_to_day_change_outlier,review,-74.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-06-21,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-06-22,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+368,2024-06-25,cbp_custody,day_to_day_change_outlier,review,88.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+366,2024-06-27,transfers_to_hhs,day_to_day_change_outlier,review,59.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+366,2024-06-27,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,256.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2024-06-28,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-06-29,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-07-03,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-07-05,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-07-06,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+361,2024-07-07,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,233.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+360,2024-07-08,transfers_to_hhs,day_to_day_change_outlier,review,-104.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+359,2024-07-09,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,182.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+358,2024-07-10,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,201.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+357,2024-07-11,transfers_to_hhs,day_to_day_change_outlier,review,-76.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-07-12,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-07-13,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-07-18,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-07-19,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-07-20,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+352,2024-07-21,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,205.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+350,2024-07-23,cbp_custody,day_to_day_change_outlier,review,68.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+348,2024-07-25,cbp_custody,day_to_day_change_outlier,review,-74.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+348,2024-07-25,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,208.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2024-07-26,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-07-27,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+346,2024-07-29,cbp_custody,day_to_day_change_outlier,review,-80.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+346,2024-07-29,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,219.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+345,2024-07-30,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,208.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+343,2024-08-01,cbp_daily_intake,day_to_day_change_outlier,review,87.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-08-02,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-08-03,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+341,2024-08-05,cbp_custody,day_to_day_change_outlier,review,92.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+341,2024-08-05,cbp_daily_intake,day_to_day_change_outlier,review,109.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+340,2024-08-06,transfers_to_hhs,day_to_day_change_outlier,review,62.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-08-09,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-08-10,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+336,2024-08-12,hhs_discharges,day_to_day_change_outlier,review,-101.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-08-16,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-08-17,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+331,2024-08-19,cbp_daily_intake,day_to_day_change_outlier,review,90.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+331,2024-08-19,transfers_to_hhs,day_to_day_change_outlier,review,-73.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+330,2024-08-20,transfers_to_hhs,day_to_day_change_outlier,review,83.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+329,2024-08-21,transfers_to_hhs,day_to_day_change_outlier,review,-78.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-08-23,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-08-24,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-08-25,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-08-26,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-08-30,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-08-31,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-09-01,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-09-06,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-09-07,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+316,2024-09-12,cbp_daily_intake,day_to_day_change_outlier,review,91.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+315,2024-09-13,cbp_custody,day_to_day_change_outlier,review,-80.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+315,2024-09-13,cbp_daily_intake,day_to_day_change_outlier,review,-103.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+315,2024-09-13,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,212.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2024-09-14,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+312,2024-09-17,cbp_custody,day_to_day_change_outlier,review,95.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+311,2024-09-18,cbp_custody,day_to_day_change_outlier,review,-91.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+311,2024-09-18,transfers_to_hhs,day_to_day_change_outlier,review,78.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+311,2024-09-18,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,217.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2024-09-20,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-09-21,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+307,2024-09-24,cbp_daily_intake,day_to_day_change_outlier,review,94.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-09-27,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-09-28,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+303,2024-09-30,cbp_custody,day_to_day_change_outlier,review,72.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+303,2024-09-30,cbp_daily_intake,day_to_day_change_outlier,review,128.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+301,2024-10-02,cbp_custody,day_to_day_change_outlier,review,-99.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+301,2024-10-02,cbp_daily_intake,day_to_day_change_outlier,review,-77.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+301,2024-10-02,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,230.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+300,2024-10-03,transfers_to_hhs,day_to_day_change_outlier,review,-52.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+300,2024-10-03,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,178.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2024-10-04,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-10-05,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-10-06,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+296,2024-10-10,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,193.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2024-10-11,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-10-12,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+294,2024-10-14,hhs_discharges,day_to_day_change_outlier,review,-104.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+292,2024-10-16,cbp_custody,day_to_day_change_outlier,review,77.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-10-18,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-10-19,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+288,2024-10-22,cbp_daily_intake,day_to_day_change_outlier,review,72.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+288,2024-10-22,transfers_to_hhs,day_to_day_change_outlier,review,-67.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-10-24,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-10-25,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-10-26,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+285,2024-10-28,cbp_daily_intake,day_to_day_change_outlier,review,-92.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+283,2024-10-30,transfers_to_hhs,day_to_day_change_outlier,review,-51.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-11-01,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-11-02,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+280,2024-11-04,cbp_daily_intake,day_to_day_change_outlier,review,83.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-11-08,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-11-09,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-11-10,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+276,2024-11-11,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,168.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+275,2024-11-12,cbp_custody,day_to_day_change_outlier,review,96.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-11-15,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-11-16,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-11-22,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-11-23,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+264,2024-11-27,cbp_custody,day_to_day_change_outlier,review,95.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+264,2024-11-27,cbp_daily_intake,day_to_day_change_outlier,review,87.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+263,2024-11-28,cbp_custody,day_to_day_change_outlier,review,-87.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+263,2024-11-28,cbp_daily_intake,day_to_day_change_outlier,review,-126.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-11-29,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-11-30,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+260,2024-12-03,cbp_custody,day_to_day_change_outlier,review,-100.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+260,2024-12-03,cbp_daily_intake,day_to_day_change_outlier,review,-155.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+260,2024-12-03,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,242.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+259,2024-12-04,transfers_to_hhs,day_to_day_change_outlier,review,-82.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+258,2024-12-05,cbp_daily_intake,day_to_day_change_outlier,review,100.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-12-06,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-12-07,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+256,2024-12-09,cbp_custody,day_to_day_change_outlier,review,72.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+256,2024-12-09,cbp_daily_intake,day_to_day_change_outlier,review,92.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+255,2024-12-10,transfers_to_hhs,day_to_day_change_outlier,review,61.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+253,2024-12-12,cbp_custody,day_to_day_change_outlier,review,-100.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+253,2024-12-12,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,286.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2024-12-13,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-12-14,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+250,2024-12-17,transfers_to_hhs,day_to_day_change_outlier,review,58.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+248,2024-12-19,cbp_custody,day_to_day_change_outlier,review,127.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+248,2024-12-19,cbp_daily_intake,day_to_day_change_outlier,review,101.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+,2024-12-20,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-12-21,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+246,2024-12-23,cbp_daily_intake,day_to_day_change_outlier,review,105.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+246,2024-12-23,transfers_to_hhs,day_to_day_change_outlier,review,-59.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+244,2024-12-25,cbp_custody,day_to_day_change_outlier,review,-142.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+244,2024-12-25,cbp_daily_intake,day_to_day_change_outlier,review,-104.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+244,2024-12-25,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,193.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+243,2024-12-26,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,152.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2024-12-27,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-12-28,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2024-12-31,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+240,2025-01-01,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,94.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2025-01-03,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-01-04,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+237,2025-01-06,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,71.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+235,2025-01-08,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,82.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2025-01-10,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-01-11,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-01-17,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-01-18,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+228,2025-01-19,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,168.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+227,2025-01-20,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,136.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+226,2025-01-21,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,117.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+225,2025-01-22,transfers_to_hhs,day_to_day_change_outlier,review,-65.0,Consecutive-calendar-day change is outside the observed 1.5-IQR range. This is an inspection flag; the value is retained.
+224,2025-01-23,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,97.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2025-01-24,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-01-25,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+219,2025-01-30,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,47.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2025-01-31,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-02-01,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+218,2025-02-02,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,41.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2025-02-07,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-02-08,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+213,2025-02-09,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,23.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+209,2025-02-13,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,23.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2025-02-14,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-02-15,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-02-16,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-02-21,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-02-22,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+200,2025-02-27,transfers_to_hhs,transfer_exceeds_cbp_custody_review,review,17.0,"The DOCX comparison transfers_to_hhs <= cbp_custody is exceeded. Transfers are a daily flow and custody is an active stock, so reporting conventions may make this comparison non-equivalent."
+,2025-02-28,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-03-01,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-03-07,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-03-08,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-03-14,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-03-15,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-03-21,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-03-22,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-03-28,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-03-29,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-04-04,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-04-05,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-04-12,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-04-18,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-04-19,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-04-25,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-04-26,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-05-02,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-05-03,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-05-09,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-05-10,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-05-16,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-05-17,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-05-20,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-05-23,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-05-24,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-05-25,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-05-26,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-05-30,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-05-31,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-06-06,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-06-07,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-06-11,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-06-12,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-06-13,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-06-14,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-06-15,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-06-16,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-06-18,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-06-20,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-06-21,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-06-27,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-06-28,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-07-03,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-07-04,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-07-05,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-07-11,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-07-12,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-07-18,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-07-19,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-07-20,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-07-25,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-07-26,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-08-01,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-08-02,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-08-08,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-08-09,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-08-15,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-08-16,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-08-22,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-08-23,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-08-29,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-08-30,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-08-31,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-09-05,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-09-06,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-09-12,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-09-13,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-09-19,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-09-20,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-09-26,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-09-27,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-10-03,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-10-04,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-10-10,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-10-11,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-10-12,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-10-17,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-10-18,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-10-24,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-10-25,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-10-31,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-11-01,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-11-07,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-11-08,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-11-10,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-11-14,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-11-15,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-11-21,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-11-22,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-11-26,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-11-28,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-11-29,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-12-05,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-12-06,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-12-12,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-12-13,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-12-19,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,2025-12-20,,missing_calendar_date,data_gap,,No source record exists for this calendar date; it remains missing rather than zero-filled.
+,,,source_not_chronological,info,,Source rows were not in oldest-to-newest order; analytical records were sorted by date.
